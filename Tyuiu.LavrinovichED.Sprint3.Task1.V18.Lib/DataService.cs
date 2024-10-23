@@ -6,10 +6,11 @@ namespace Tyuiu.LavrinovichED.Sprint3.Task1.V18.Lib
     {
         public double GetSumSeries(int startValue, int stopValue)
         {
-            double sumSeries = 0;
+            double sumSeries = 0; 
+
             while (startValue <= stopValue)
             {
-                sumSeries = sumSeries + (Math.Sin(sumSeries) * Math.Pow((1 / 4), 2));
+                sumSeries += (Math.Sin(startValue) * Math.Pow((1 / 4.0), 2));
                 startValue++;
             }
             return Math.Round(sumSeries, 3);
