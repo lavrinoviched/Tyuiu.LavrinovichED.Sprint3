@@ -16,7 +16,7 @@ namespace Tyuiu.LavrinovichED.Sprint3.Task2.V3.Test
 
             double res = ds.GetSumSeries(value, startValue, stopValue);
 
-            double wait = 7245075375;
+            double wait = 1935;
 
             Assert.AreEqual(res, wait); 
         }

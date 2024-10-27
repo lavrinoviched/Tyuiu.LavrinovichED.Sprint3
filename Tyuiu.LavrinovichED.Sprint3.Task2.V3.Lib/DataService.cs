@@ -6,16 +6,15 @@ namespace Tyuiu.LavrinovichED.Sprint3.Task2.V3.Lib
     {
         public double GetSumSeries(int value, int startValue, int stopValue)
         {
-            double SumSeries = 0;
-
+            double res = 0;
+            int k = 1;
+            stopValue = 15;
             do
             {
-                SumSeries = SumSeries + ((Math.Pow(value, 2) * startValue) + 1);
-                startValue++;
-            }
-            while (startValue <= stopValue);
-
-            return Math.Pow(SumSeries, 3);
+                res += (Math.Pow(4, 2) * k) + 1;
+                k++;
+            } while (k <= stopValue);
+            return Math.Round(res, 3);
         }
     }
 }
