@@ -1,6 +1,6 @@
 using Tyuiu.LavrinovichED.Sprint3.Task6.V14.Lib;
 
-namespace Tyuiu.LavrinovichED.Spromt3.Task6.V14.Test
+namespace Tyuiu.LavrinovichED.Sprint3.Task6.V14.Test
 {
     [TestClass]
     public class DataServiceTest
@@ -17,7 +17,7 @@ namespace Tyuiu.LavrinovichED.Spromt3.Task6.V14.Test
 
             double wait = 1;
 
-            Assert.AreEqual(res, wait); 
+            Assert.AreEqual(res, wait);
         }
     }
 }
