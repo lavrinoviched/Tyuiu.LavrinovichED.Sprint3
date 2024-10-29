@@ -12,12 +12,13 @@ namespace Tyuiu.LavrinovichED.Sprint3.Task6.V14.Lib
             {
                 for (int j = 1; j <= stopValue; j++)
                 {
-                    if ((i % j == 0) & (j > 5))
+                    if ((stopValue % j == 0 && j > 5))
                     {
-                        Div += j;
+                        Div++;
                     }
                 }
             }
+
             return Div;
      
         }
