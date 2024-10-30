@@ -10,9 +10,9 @@ namespace Tyuiu.LavrinovichED.Sprint3.Task6.V14.Lib
 
             for (int i = startValue; i <= stopValue; i++)
             {
-                for (int j = 1; j <= stopValue; j++)
+                for (int j = 1; j <= i; j++)
                 {
-                    if ((stopValue % j == 0 && j > 5))
+                    if ((i % j == 0 && j > 5))
                     {
                         Div++;
                     }
